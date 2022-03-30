@@ -1,0 +1,14 @@
+.title {
+  font: 18px;
+  font-weight: bold;
+}
+
+.desc {
+  width: 500px;
+  text-align: justify;
+  opacity: 0.7;
+}
+
+.subTitle {
+  font-weight: bold;
+}

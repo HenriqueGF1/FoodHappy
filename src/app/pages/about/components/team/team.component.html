@@ -1,0 +1,29 @@
+<div class="container">
+
+  <div class="row text-center pt-5 pb-5" data-aos="fade-right">
+    <div class="col-12">
+      <div class="row row-cols-1 row-cols-md-3 g-4 pb-5">
+
+        <div class="col" *ngFor="let pessoa of pessoas">
+          <div class="card">
+            <img src="{{ pessoa.picture.large }}" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="title">{{ pessoa.name.first }} {{ pessoa.name.last }}</h5>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              </p>
+              <p class="card-info">
+                Telefone: {{ pessoa.phone }}
+              </p>
+              <p class="card-info">
+                Email: {{ pessoa.email }}
+              </p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+</div>

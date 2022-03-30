@@ -1,0 +1,45 @@
+.form {
+  margin: 10px 0px 100px 0px;
+  padding: 10px 0px 100px 0px;
+}
+
+label {
+  font-weight: bold;
+}
+
+::placeholder {
+  opacity: 0.5;
+  color: var(--cor-secundaria);
+}
+
+.form-control:focus {
+  border: 1px solid var(--cor-background);
+  box-shadow: 0 0 0 0.1rem var(--cor-secundaria);
+}
+
+.btnForm {
+  width: 80px;
+  height: 35px;
+  background-color: var(--cor-secundaria);
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 1px;
+  transition: transform 250ms;
+}
+
+.btnHome:hover {
+  opacity: 0.8;
+  transform: translateY(-5px);
+}
+
+ul {
+  padding: 8px;
+}
+
+li {
+  font-weight: bolder;
+  list-style: none;
+  padding: 8px 0px 8px 0px;
+  margin: 0;
+}

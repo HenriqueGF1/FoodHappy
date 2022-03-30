@@ -1,0 +1,15 @@
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgCards {
+  width: 150px;
+}

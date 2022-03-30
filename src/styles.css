@@ -1,0 +1,30 @@
+/* Estilos Globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Cors do Site */
+:root {
+  --cor-primaria: #002500;
+  --cor-secundaria: #0e7138;
+  --cor-background: #f3fbf4;
+}
+
+.background-inteiro {
+  background-color: var(--cor-background);
+  overflow: hidden;
+}
+
+.form-submitted input.ng-invalid,
+.form-submitted select.ng-invalid {
+  border-color: #ff0019;
+}
+
+.control-error{
+  padding: 8px 0px 0px 0px;
+  font-weight: bold;
+  color: red;
+}

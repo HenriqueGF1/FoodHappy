@@ -1,0 +1,20 @@
+.background {
+  background-color: var(--cor-primaria);
+}
+
+.active {
+  color: #069E2D;
+  font-weight: bold;
+  padding-bottom: 2px;
+  border-bottom-style: solid;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+a:hover {
+  opacity: 0.6;
+  color: white;
+}

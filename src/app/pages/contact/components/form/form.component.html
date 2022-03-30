@@ -1,0 +1,31 @@
+<div class="row d-flex justify-content-center form">
+  <div class="col-6">
+
+    <form [formGroup]="formContato" (submit)="send()" errorTailor>
+
+      <div class="mb-3 pb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="nome" placeholder="Digite Seu Nome..." formControlName="nome"/>
+      </div>
+      <div class="mb-3 pb-3">
+        <label for="nome" class="form-label">E-mail</label>
+        <input type="text" class="form-control" id="email" placeholder="Digite Seu E-mail..." formControlName="email" />
+      </div>
+      <div class="mb-3 pb-3">
+        <label for="nome" class="form-label">Duvida</label>
+        <input type="text" class="form-control" id="duvida" placeholder="Digite Sua Duvida..." formControlName="duvida"/>
+      </div>
+      <button type="submit" class="btnForm">Enviar</button>
+
+    </form>
+
+    <div class="mb-3 pb-3" *ngFor="let valor of valores">
+      <ul>
+        <li>{{valor.nome}}</li>
+        <li>{{valor.email}}</li>
+        <li>{{valor.duvida}}</li>
+      </ul>
+    </div>
+
+  </div>
+</div>

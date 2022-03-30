@@ -1,0 +1,33 @@
+.title {
+  font-weight: bold;
+}
+
+.imgCardapio {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.card {
+  border: none;
+}
+
+.card-text {
+  opacity: 0.8;
+  color: gray;
+}
+
+.preco {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.btn {
+  width: 100%;
+}
+
+.g-4 {
+  margin: 0px 100px 0px 100px;
+}

@@ -1,0 +1,8 @@
+.fundo{
+    background-color: var(--cor-primaria);
+}
+
+a,p,h5{
+    color: white;
+    text-decoration: none;
+}
